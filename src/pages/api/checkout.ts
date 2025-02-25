@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 import Stripe from 'stripe';
 import { z } from 'zod';
-import { loadCartFromCookies } from '~/features/cart/cart.server.ts';
+import { loadCartFromCookies } from '~/features/cart/cart.server';
 import type { stripeProductMetadataSchema } from '~/lib/products.ts';
 import {
 	INTERNATIONAL_SHIPPING_RATE_ID,
