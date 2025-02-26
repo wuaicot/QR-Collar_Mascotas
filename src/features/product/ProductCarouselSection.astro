@@ -1,8 +1,8 @@
 ---
 import { type Product, getProducts } from 'storefront:client';
-import { getProductStock } from '~/lib/products.ts';
+import { getProductStock } from '~/lib/products';
 import ProductCard from './ProductCard.astro';
-import ProductCarousel, { MEASURED_ITEM_ID, GAP } from './ProductCarousel.tsx';
+import ProductCarousel, { MEASURED_ITEM_ID, GAP } from './ProductCarousel';
 
 type Props = {
 	heading: string;

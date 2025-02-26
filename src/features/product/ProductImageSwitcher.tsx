@@ -30,6 +30,7 @@ export function ProductImageSwitcher(props: ProductImageSwitcherProps) {
 								index() === currentImageIndex() && 'border-theme-base-900',
 							)}
 							type="button"
+							title={`Product image ${index() + 1}`}
 						>
 							<img
 								{...image.attributes}
