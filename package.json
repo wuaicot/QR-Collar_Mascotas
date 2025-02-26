@@ -55,6 +55,7 @@
 		"@total-typescript/ts-reset": "^0.6.1",
 		"astro": "^4.12.2",
 		"astro-icon": "^1.1.1",
+		"sharp": "^0.33.5",
 		"solid-icons": "^1.1.0",
 		"solid-js": "^1.8.19",
 		"stripe": "16.6.0",
