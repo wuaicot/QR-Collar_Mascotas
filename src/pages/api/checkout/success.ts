@@ -132,7 +132,7 @@ async function createOrderFromStripe(
 						postal: session.customer_details?.address?.postal_code ?? '',
 						...customerAddressDetails,
 					}
-				: undefined,
+				:undefined,
 		},
 	});
 

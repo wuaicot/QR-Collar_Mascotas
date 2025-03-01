@@ -134,7 +134,7 @@ export function AddToCartForm(props: { product: Product }) {
 				<Switch
 					fallback={
 						<Button type="submit" pending={mutation.isPending}>
-							Add to cart
+							Agregar al Carrito
 						</Button>
 					}
 				>

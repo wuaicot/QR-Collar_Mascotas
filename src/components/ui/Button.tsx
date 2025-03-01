@@ -13,7 +13,7 @@ export function Button(props: Props) {
 			{...props}
 			type={props.type ?? 'button'}
 			class={twMerge(
-				'flex h-12 items-center justify-center gap-3 bg-theme-base-900 px-4 text-sm font-semibold uppercase text-white transition ',
+				'flex h-12 items-center justify-center gap-3 bg-theme-base-900 px-4 text-sm font-semibold uppercase text-white transition  ',
 				props.class,
 				(props.disabled || props.pending) && 'opacity-50',
 				!props.disabled && 'hover:bg-theme-base-600',
