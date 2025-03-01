@@ -147,15 +147,15 @@ const collectionDefaults = {
 const collections: Record<string, Collection> = {
 	apparel: {
 		id: 'apparel',
-		name: 'Apparel',
+		name: 'Perros',
 		description: 'Wear your love for Astro on your sleeve.',
 		slug: 'apparel',
-		imageUrl: '/assets/shirts.png',
+		imageUrl: '/assets/perros.jpg',
 		...collectionDefaults,
 	},
 	stickers: {
 		id: 'stickers',
-		name: 'Stickers',
+		name: 'Gatos',
 		description: 'Load up those laptop lids with Astro pride.',
 		slug: 'stickers',
 		imageUrl: '/assets/astro-sticker-pack.png',
@@ -163,7 +163,7 @@ const collections: Record<string, Collection> = {
 	},
 	bestSellers: {
 		id: 'bestSellers',
-		name: 'Best Sellers',
+		name: 'Los más vendidos',
 		description: "You'll love these.",
 		slug: 'best-sellers',
 		imageUrl: '/assets/astro-houston-sticker.png',
@@ -181,7 +181,7 @@ const defaultVariant = {
 const apparelVariants = ['XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL'].map((size, index) => ({
 	id: size,
 	name: size,
-	stock: index * 10,
+	stock: index * 12,
 	options: {
 		Size: size,
 	},
@@ -201,12 +201,12 @@ const products: Record<string, Product> = {
 	'astro-icon-zip-up-hoodie': {
 		...productDefaults,
 		id: 'astro-icon-zip-up-hoodie',
-		name: 'Astro Icon Zip Up Hoodie',
+		name: 'Modelo P_001',
 		slug: 'astro-icon-zip-up-hoodie',
 		tagline:
 			'No need to compress this .zip. The Zip Up Hoodie is a comfortable fit and fabric for all sizes.',
-		price: 4500,
-		imageUrl: '/assets/astro-zip-up-hoodie.png',
+		price: 1200000,
+		imageUrl: '/assets/modelP_001.jpg',
 		collectionIds: ['apparel', 'bestSellers'],
 		variants: apparelVariants,
 	},

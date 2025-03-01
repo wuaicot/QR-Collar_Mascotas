@@ -1,6 +1,6 @@
-const formatter = new Intl.NumberFormat('en-US', {
+const formatter = new Intl.NumberFormat('es', {
 	style: 'currency',
-	currency: 'USD',
+	currency: 'CLP',
 });
 
 /**
